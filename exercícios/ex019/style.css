@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(118, 245, 118);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1 {
+    color: rgb(15, 184, 15);
+}
+h1#principal {
+    color: white;
+    text-align: center;
+    background-color: green;
+}
+
+h2 {
+    color:  rgb(79, 116, 79);
+}
+.basico{  
+    color: rgba(175, 155, 3, 0.843);
+
+}
+
+.avancado {
+    color: red;
+}
+
+.destaque {
+    background-color: rgba(255, 255, 0, 0.562);
+}
+
+div:hover {
+    height: 55px;
+    width: 55px;
+    background-image: linear-gradient(to right, rgb(132, 255, 0) , green );
+} 

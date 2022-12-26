@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+header {
+    padding: 10px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.327);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(to bottom, rgba(0, 128, 0, 0.942) , rgba(72, 255, 0, 0.706));
+    margin: 1px;
+}
+
+header h1 {
+    text-shadow: 2px 1px rgba(39, 37, 37, 0.522);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+header p {
+    width: 400px;
+    background-color: rgb(63, 216, 63);
+    color: rgb(107, 167, 65);
+    height: 25px;
+    margin: 1px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(5, 53, 11);
+    transition-duration: 0.5s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+}
+header a:hover {
+    background-color: rgb(39, 147, 39);
+    transition-duration: 2em;
+    border-radius: 3px;
+    padding: 5px;
+    
+    
+}
+
+main h2 {
+    background-color: aquamarine;
+    text-align: center;
+    margin: 0px;
+    color: green;
+    text-shadow: 2px 1px black;
+
+}
+main {
+    margin: 0px 10px;
+    box-shadow: 2px 2px 2px  rgba(0, 0, 0, 0.524);
+    padding: auto;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgba(128, 125, 128, 0.994);
+    width: 100%;
+}
+
+main p {
+    text-align: justify;
+    margin: 10px;
+    border: 10px;
+    font-size: 15px;
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+
+
+}
+
+
+body {
+    margin: 10px;
+    padding: auto;
+    background-color: rgb(207, 204, 201);
+}
+
+
+
+#ir{
+    border-radius: 3px;
+    text-decoration: dashed;
+    color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: end;
+}
+
+#ir a:hover {
+   padding: 2px;
+    border-radius: 35px;
+    transition-duration: 1s;
+    background-color: rgb(233, 242, 236);
+}

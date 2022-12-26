@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(to left , rgb(21, 102, 174) , rgb(191, 0, 255) );
+        }
+
+        .tela-login {
+            background-image: linear-gradient(to right, rgb(0, 255, 242) , rgb(238, 0, 255));
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50% , -50%);
+            padding: 50px;
+            border-radius: 30px;
+            color: aliceblue;
+
+        }
+
+        input {
+            padding: 15px;
+            border: none;
+            outline-color: rgba(0, 255, 255, 0.651);
+            font-size: 15px;
+            border-radius: 10px;
+        }
+
+        button {
+            background-color: dodgerblue;
+            border: none;
+            padding: 15px;
+            width: 100%;
+            border-radius: 20px;
+
+        }
+        button:hover {
+            background-color: rgb(0, 170, 255);
+        }
+        
+        .tela {
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: aliceblue;
+            background-color: rgb(0, 0, 0);
+            border-radius: 20px;
+            padding: 5px 4px ;
+            height: 800px;
+        }
+
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+        
+        }
+    </style>
+</head>
+<body>
+    <div class="tela">
+        <h1> olá, seja em vindo(a) a nosso site</h1>
+        <h2>precisamos de algumas informaçoes suas</h2>
+        <p>preencha abaixo o cadastro</p>
+    </div>
+    <div class="tela-login">
+        <h1>Login</h1>
+        <input type="text" placeholder="nome"> <br> <br>
+        <input type="password" placeholder="senha"> <br><br>
+        <button>enviar</button>
+    </div>
+    
+</body>
+</html>
