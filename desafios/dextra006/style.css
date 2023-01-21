@@ -1,7 +1,5 @@
 @charset "UTF-8";
 
-
-
 header {
     background-color: aqua;
     padding: 1px;
@@ -10,18 +8,57 @@ header >h1 {
     text-align: center;
     color: blue;
     width: 100%;
-
-}
-header > a {
-    padding: 5px;
-    color: dodgerblue;
-    font-family: Arial, Helvetica, sans-serif;
     
 }
 
+header >p {
+    text-align: center;
+    
+}
 
-a::hover {
-    color: black;
+main {
+    background-color: darkslategrey;
+    height: 500px;
+    max-width: 700px;
+    
+    
+}
+
+:root { 
+    --cor0: #85D885;
+    --cor1: #5CB75C;
+    --cor2: #379037;
+    --cor3: #1C6A1C;
+    --cor4: #094309;
+;
+
+    
+}
+
+main  p {
+    text-align: justify;
+}
+nav {
+    background-color: var(--cor0);
+    width: 100%;
+}
+
+nav > a {
+    
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--cor0);
+
+    
+}
+
+nav > a:hover {
+    padding: 10px ;
+    color: rgb(0, 255, 170);
+    background-color: rgb(14, 14, 111);
+    transition-delay: 1ms;
+    transition-duration: 1ms;
+    
 }
 
 a::after {
